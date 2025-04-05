@@ -11,13 +11,13 @@ from PIL import ImageFont, ImageDraw
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
-from data_provider import VQADataProvider
+from .data_provider import VQADataProvider
 sys.path.append("..")
 import config
 sys.path.append(config.VQA_TOOLS_PATH)
 sys.path.append(config.VQA_EVAL_TOOLS_PATH)
-from vqaTools.vqa import VQA
-from vqaEvaluation.vqaEval import VQAEval
+from .vqaTools.vqa import VQA
+from .vqaEvaluation.vqaEval import VQAEval
 
 def visualize_failures(stat_list,mode):
 
