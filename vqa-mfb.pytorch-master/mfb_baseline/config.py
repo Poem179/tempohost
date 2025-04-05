@@ -1,7 +1,7 @@
 import argparse
 # vqa tools - get from https://github.com/VT-vision-lab/VQA
-VQA_TOOLS_PATH = '/home/yuz/data/VQA/PythonHelperTools'
-VQA_EVAL_TOOLS_PATH = '/home/yuz/data/VQA/PythonEvaluationTools'
+VQA_TOOLS_PATH = '/content/tempohost/VQA/PythonHelperTools'
+VQA_EVAL_TOOLS_PATH = '/content/tempohost/VQA/PythonEvaluationTools'
 
 # location of the data
 VQA_PREFIX = '/home/yuz/data/VQA'
