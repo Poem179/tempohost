@@ -138,7 +138,7 @@ class VQA:
 			return 0
 		for ann in anns:
 			quesId = ann['question_id']
-			print "Question: %s" %(self.qqa[quesId]['question'])
+			print("Question: %s" %(self.qqa[quesId]['question']))
 			for ans in ann['answers']:
 				print("Answer %d: %s" %(ans['answer_id'], ans['answer']))
 		
