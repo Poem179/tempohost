@@ -17,7 +17,7 @@ import config
 sys.path.append(config.VQA_TOOLS_PATH)
 sys.path.append(config.VQA_EVAL_TOOLS_PATH)
 from tempohost.VQA.PythonHelperTools.vqaTools.vqa.py import VQA
-from VQA.PythonEvaluationTools.vqaEval import VQAEval
+from tempohost.VQA.PythonEvaluationTools.vqaEvaluation.vqaEval.py import VQAEval
 
 def visualize_failures(stat_list,mode):
 
