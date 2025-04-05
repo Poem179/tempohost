@@ -16,8 +16,8 @@ sys.path.append("..")
 import config
 sys.path.append(config.VQA_TOOLS_PATH)
 sys.path.append(config.VQA_EVAL_TOOLS_PATH)
-from VQA.PythonHelperTools.vqaTools.vqa import VQA
-from VQA.PythonEvaluationTools.vqaEval import VQAEval
+from VQA.PythonHelperTools.vqaTools.vqa import vqa
+from VQA.PythonEvaluationTools.vqaEval import vqaEval
 
 def visualize_failures(stat_list,mode):
 
