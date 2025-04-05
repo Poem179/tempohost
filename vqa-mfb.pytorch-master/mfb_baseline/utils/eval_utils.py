@@ -16,7 +16,7 @@ sys.path.append("..")
 import config
 sys.path.append(config.VQA_TOOLS_PATH)
 sys.path.append(config.VQA_EVAL_TOOLS_PATH)
-from VQA.PythonHelperTools.vqaTools.vqa import VQA
+from .content.tempohost.VQA.PythonHelperTools.vqaTools.vqa import VQA
 from VQA.PythonEvaluationTools.vqaEval import VQAEval
 
 def visualize_failures(stat_list,mode):
