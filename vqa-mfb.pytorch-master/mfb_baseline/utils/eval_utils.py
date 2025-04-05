@@ -243,7 +243,7 @@ def drawgraph(results, folder,k,d,prefix='std',save_question_type_graphs=False):
     def draw_qt_acc(target_key_list, figname):
         fig = plt.figure()
         for k in target_key_list:
-            print k,type(k)
+            print (k,type(k))
             t_val = np.array([ qt_dic[k] for qt_dic in qt_dic_list])
             plt.plot(it,t_val,label=str(k))
         plt.legend(fontsize='small')
