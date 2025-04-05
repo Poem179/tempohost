@@ -93,22 +93,22 @@ def visualize_failures(stat_list,mode):
                         img_title = pre + str(' '.join(t_question_list)) + '.  a_' + \
                             str(ans) + ' p_' + str(pred) + '.png'
                         count += 1
-                        print os.path.join(savepath,img_title)
+                        print (os.path.join(savepath,img_title))
                         t_img.save(os.path.join(savepath,img_title))
 
-    print 'saving whatis'
+    print('saving whatis')
     qt_color_list = [['what','color']]
     save_qtype(qt_color_list, 'colors', mode)
 
-    print 'saving whatis'
+    print('saving whatis')
     qt_whatis_list = [['what','is'],['what','kind'],['what','are']]
     save_qtype(qt_whatis_list, 'whatis', mode)
 
-    print 'saving is'
+    print('saving is')
     qt_is_list = [['is','the'], ['is','this'],['is','there']]
     save_qtype(qt_is_list, 'is', mode)
 
-    print 'saving how many'
+    print('saving how many')
     qt_howmany_list =[['how','many']]
     save_qtype(qt_howmany_list, 'howmany', mode)
 
