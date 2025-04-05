@@ -241,7 +241,7 @@ class VQADataProvider:
                 t_ivec = ( t_ivec / np.sqrt((t_ivec**2).sum()) )
             except:
                 t_ivec = 0.
-                print 'data not found for qid : ', q_iid,  self.mode
+                print('data not found for qid : ', q_iid,  self.mode0
              
             # convert answer to vec
             if self.mode == 'val' or self.mode == 'test-dev' or self.mode == 'test':
