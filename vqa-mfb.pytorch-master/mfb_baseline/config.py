@@ -4,7 +4,7 @@ VQA_TOOLS_PATH = '/content/tempohost/VQA/PythonHelperTools'
 VQA_EVAL_TOOLS_PATH = '/content/tempohost/VQA/PythonEvaluationTools'
 
 # location of the data
-VQA_PREFIX = '/home/yuz/data/VQA'
+VQA_PREFIX = '/root/.cache/kagglehub/datasets/nqa112/vizwiz-2023-edition/versions/1'
 
 feat = 'pool5'
 DATA_PATHS = {
