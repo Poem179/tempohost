@@ -81,7 +81,7 @@ class VQAEval:
 		accQA       = []
 		accQuesType = {}
 		accAnsType  = {}
-		print "computing accuracy"
+		print("computing accuracy")
 		step = 0
 		for quesId in quesIds:
 			for ansDic in gts[quesId]['answers']:
@@ -125,7 +125,7 @@ class VQAEval:
 			step = step + 1
 
 		self.setAccuracy(accQA, accQuesType, accAnsType)
-		print "Done computing accuracy"
+		print("Done computing accuracy")
 
 	def processPunctuation(self, inText):
 		outText = inText
