@@ -34,8 +34,8 @@ DATA_PATHS = {
 def parse_opt():
     parser = argparse.ArgumentParser()
     # Data input settings
-    parser.add_argument('--TRAIN_GPU_ID', type=int, default=3)
-    parser.add_argument('--TEST_GPU_ID', type=int, default=3)
+    parser.add_argument('--TRAIN_GPU_ID', type=int, default=0)
+    parser.add_argument('--TEST_GPU_ID', type=int, default=0)
     parser.add_argument('--SEED', type=int, default=-1)
     parser.add_argument('--BATCH_SIZE', type=int, default=200)
     parser.add_argument('--VAL_BATCH_SIZE', type=int, default=1000)
